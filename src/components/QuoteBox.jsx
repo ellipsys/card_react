@@ -6,7 +6,9 @@ const QuoteBox = ({getPhrase,handleClick,randomColor}) => {
     
   return (
     <div className='card' style={{color:randomColor}}>
-        <p className='phrase__random'><span>&#8220;</span>
+      <span className='icon'>&#8220;</span>
+        <p className='phrase__random'>
+          
             {getPhrase.quote}</p>
         <h2 className='author'>{getPhrase.author}</h2>
         <button style={{background:randomColor}}onClick={handleClick} className='button_change'>&#62;</button>
