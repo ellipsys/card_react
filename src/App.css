@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h2,p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+button{
+    border: none;
+}
+span {
+    font-size: 5rem;
+}
+.App{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.card {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+    max-width: 30rem;
+}
+.phrase__random{
+
+    line-height: 1.3;
+    margin-bottom: 0.8rem;
+}
+
+.author {
+    text-align: end;
+    margin-bottom: 2rem;
+}
+.button_change {
+    color: white;
+    display: block;
+    margin-left: auto;
+    width: 3em;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    font-size: 1rem;
+}
+.button_change:hover {
+    scale: 1.1;
+    transition: scale 0.5s;
+    cursor: pointer;
+}
